@@ -1,0 +1,68 @@
+.container{
+    width: 300px;
+    height: 400px;
+
+margin: 100px;
+position: relative;
+overflow: hidden;
+border-radius: 20px;
+box-shadow: 0px 0px 30px rgba(1, 0, 7, 0.933);
+background-image:url( "https://images.wallpapersden.com/image/download/pc-marvel-s-spider-man-remastered_bWpqameUmZqaraWkpJRmbmdlrWZlbWU.jpg") ;
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header{
+   width: 50%em;
+   background-color: rgba(231, 15, 33, 0.56);
+   height: 300px;
+   border-radius: 50%;
+   position: relative;
+   top: -180px;
+  
+   opacity: 0;
+  transform: translateY(-80px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+p{
+  margin: 10px;
+  position: absolute;
+  top: 120px;
+  color: white;
+  
+  
+  
+   
+opacity: 0;
+  transform: translateX(-80px);
+  transition: opacity 1s linear, transform 1s linear;
+  
+}
+
+.container:hover .header {
+
+ opacity: 1;
+  transform: translateY(0);
+}
+.container:hover p{
+
+ opacity: 1;
+  transform: translateX(0);
+
+}
+
+
+.container:hover{
+  box-shadow: 0px 0px 50px rgba(251, 5, 5, 0.979);
+}
+h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    left: 70px;
+    color: white
+   
+    
+}
