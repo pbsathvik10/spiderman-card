@@ -11,6 +11,7 @@ background-image:url( "https://images.wallpapersden.com/image/download/pc-marvel
 background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: box-shadow 2s ease 0s;
 }
 
 .header{
@@ -36,7 +37,7 @@ p{
    
 opacity: 0;
   transform: translateX(-80px);
-  transition: opacity 1s linear, transform 1s linear;
+  transition: opacity 1s ease, transform 1s ease;
   
 }
 
